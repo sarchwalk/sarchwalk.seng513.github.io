@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Watermelons: Past, Present, and Future</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>
+            <img class="icon" src="https://i.pinimg.com/originals/7b/44/27/7b442719b5e351151f3e32859cb8d7b6.png" alt="watermelon">
+            Watermelon Fan Site
+            <img class="icon" src="https://i.pinimg.com/originals/7b/44/27/7b442719b5e351151f3e32859cb8d7b6.png" alt="watermelon">
+        </h1>
+    </div>
+
+
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pastPresentFuture.html">Past, Present, and Future</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <h1 class="title">Watermelons: Past, Present, and Future</h1>
+
+
+        <h2 class="title">The Past</h2>
+        <img class="gallery" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAzFBMVEX/////0kgjHyDR09QAAB3/1UkTDA4AAADXsUDU1tf/2krY2tvZ29wfHCAJAAD1ykaxsrMbFhc4MCPNqT4eGRpANyXHpD0tKCISCw0TEx/KzM0XEhMMAAQbGR/Urz8pJSZoZ2iqq6yKiougoaI1MjO7vL2BgYImIiNwb3AICx48OTpNS0ybnJ2Tk5TiukLr6+tdXF1DQEGKcjFkUyq7mzpyXyyukDhRRCeUezIAABnrwkR5d3iDgoJVU1Q9MyN4ZC1KPiamiTZgUCmcgTROzLK4AAANqUlEQVR4nO2de2OaSBfGKShTBFEakiBgvRsTNVGTNhfj2+72+3+nd1DmyiBgMLq78/y1mxWZH+fMuYGsokhJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJlazmVP+XKpiOIsAJcNR/qxywhhYEp17GUQVGysY99SKOKnehnHoJx9bNf4Cwc+olHFmd/wDhEP2jbtMK0J/rlfNWHS00YNavoz8PlSUCnDdpjWPE+uX913PW/WWMGIyZ9c8R4lKZxtkiHJgGkdkLY8LrWvWcVbuOCcMes/5BvH53o3TjisabGxqRMUKFwG3jyzmrcRuvE4yY9c+93Z+drrKO3VHvm9QnNN+Oj6zcV09NsUfV+0q8TptevWb2deS8ynuA/pEh1FCMfX06a8InZMMOSzjGhlOQOYMJQ2ihaq71ctaELy2035jlm3jzzRQUUtypxXwEeW/7sVbaempI5X3jYzs20Jo1EAqgdlNBIcW9Yz6Ct2pdLW09jevLna5Li161eh3ZymAMdBcTAl/RcPfEOLLRxKHmrSw3bVTqO1XKIqy+4UDTZAg1BAVM5QERAp/5iBaidFFaqGmg5ZRHiANNyC7ex1QPiuKJr4K1RKFmJXJTnHKPSZh5ktoKBZolE0WIB7qKogxdsSevcd0mIKzisqmAOYoSZp+k+j9Us7GBxph5iBwSbhzxh1DdI9yIVTUufF8v8luxKGENn+RKfBKyDcOB2DxBFxKi7O8s2JSPqxrRRqx9iy9e5ZiEWSep/sTbkA0iJsrm3hwS9hBJx2I/hTZi+0fSTc+DEGdDd8lax0LDJxCNE3G6sLnrgAoftVKWDV+R15VE+AVdMp0tOQ3sf8CKBqaYsMf4MpURk9vgIMIvV0j5Pp51kurVK1o6mwcMVKipYDvzvkEXgu0uNBN9rPUr4aaHERZMMVknqf1ooaVzK3/XkfduCSexN/KhxuyifNEufPJSlHWSBgLkugbNRFWpPt4S4rTQYQsfA8egZAdV/daOC7CjEu49CSlouP2laeg+Bay7FTrUsG0yFIpI7WfeTauX1zu1jkm4/yS133Ek5UpqKoLsAg2p29hBBuWmZ9nok/Y+4aR9PGmLb68hr+U3ooHv2ohr09MK16Qq4PoK3L1vK5pIqBVUXc5LTTTKqLdOzZMUnkG5Q9Ywmo9MaPdiQtxq8E0Wjrrq7c9zc9PqX4jQ47IclQ0tdBcYEfLTKM1H1q1fnx3hDZp261xja6L053bwfe5FHF25SQb0aPRf1MqZjdxI0R10LY4QlzBrTIgTH58vSKw5NyMSE6aveVt274QnGXzhRhqMMzMiMaE75ZeMesO4KN0JTaYSbkrqmrqa58x4XljschQ/rI1MmKhnDJQAnAVFOMPDGr6swWM59fZPjpx4+W0n9WsRxNpzfNhNzgqp9oJNuOR2IbEJaFKEVmo0NQZ42pinb71GlWQxwkt0WMq4glMV99Iq4E1ICrFozEaEt9sNR0jtxJag108Qom6gICE6LB9h7RGVM3xzD4VMiAua2E1Rkky6dY8Y8Xvm+T+FsHpBTNjkl4sLNCqSMtHU2XB+TW4B5MkYn0OIM0VytSRuAIXVBrdUfKwh+UW9fcny088grK1QmEn2e2SxVLrfCd/z5camkREn+LGFzIV/AiHlo/o64XC4CAMGR6jgx/d07rJA4XYr008/w4YqfvzC5Rdq4CbCveMBlT7pgxPhdIbik2goxaiF5oXFCK8zhtv0Z3EcVcGANwapZ3DjJIg1/LgmOnCKLVx52ot4Eeuq0N2l6nd03Fsm4F/YR51NIlP4eD/xcYaNNTMekUxYswYah9ySKnIYGV1AZ/MTJhyj/eT1BYTEhfmeGR46x4jt62KLL1XVBtmE9iyxTBIw2HoGCRcvSSPSftr6+3Qzm+oz3oTBImkHbMJgIgIkCcMdJggNnzxo+3qysVTtF86E7k3CgGQ+Q40vWHUQRZgIp3Txplb+Og1i7Q/ZhIlyjc7bwUIMSD/ynbxA1jokiPsD6rEAfxJAu8/neupBtVQTUkb03pO72JwGBPHq8xFrTwRQsAmpcibVhLQR7UQkhuq4J0SkAQWBgt5G6SYkTy2oziLhBdANiJ+qlYvPRaQBVZ0vuKPV4bWnBNKdKFfm+8TIT6lo88l7kd6DMMoI9lAfX35xLkTCac9N1m7Q1ec04s/PQ6RqNUggSPVU1SUsZ4hMjJDsTCLENY2YZzRVDuCKBkyG0ejhC9Ib7QVUlDXJmsmME+Ucei/+KFh/Hla1Vr88vpKT2mMRIKkqmQmbSKTFEJSn0Xd1KcTb50ahp77a8dCwXaTzqDZ+tyhAkWsZ+P6K6iwzABWFRBNP9GWaRSO2WvcFPPWgZxNr31/bFOBEtCaqat6XKZCW5NOCeBpZkbRSar1IvDng2cQqjDF1cjogvOhmH68ofM8GpPxUdUR5H+5FClGtPOb21OKEtcYzFWNUINqDdLnmujkAFWWGDwiSXfQWkY6oaqudt74p/Gxi7emW8lBxFIXCuT56IjiXiJ/a78LvZPIi9NQf+cxYkLDWeKQ9VAUD8WIWuF4Ox/kAaT8FPaEVzZ5O/zCz1XrKc9eoEGG1+vOViqGq4woqmQiQbEJ3mBNQUcjdGFUXbkXNHHUC6vT1ynOOoFqAsFr7eknvQFW/S1kIVUnmiaNIC5z33Tuh62uGtqHjjdqu/GpkMeZ/NrH29qNC70AVdA0hIN0NgEF+QEVxsBOmRJtoKgKYnxC3bl++ZDBefN/pIsN+jVWFdlDVTYsxBtXR6eldoUjkNwqqxz8JgGQ1GU+FjJU/jb37MU/VVq29cXyqPhylXGWNBEVXzaZiRFKGuBLcXcEF91P329vVW8Eb3Dzf/S+OD3qoJvTQqN7WyacS9ymy1PXIwfMURM0aOKwZoR0fL6oHQsLjrp55vkDtpZ3dpNeYnOJn6o68aiEd0fQX7G6MYs71y33RRxW2eF9XN2x8iXZgqgGZPsfm76Xl0QOV8kRNJzZjx2NXpdZblcs/hSAjvJdvlVad+6ZwmGpAWFmRYB5sDgBUFIPaZGCQimgYY49z1S3k9ctVA1JmYVYhXeMKWi+BpwZB30wzIAPodLJphGrmQ4Su2hW8PQRCVp5XT2/RUzJCzuhXvLXq/dPqd+U1iacGYOKnn5MGdL29k5l9GtCIs1R/0QxrtBC+IaXdeq20nlc/L94a8VNBEdXuJ4iN+4ufq+fbym2rLTgyAN09fJpJ9zdFahlefRoxJevGjM1N2ltg2q1bWMdc/35+/LVavfx5Wa1+PT5f3sC/ieF2fCMr1UEh4IJqw/M2FGK904iTPRc1smOX/M4/qXq93W4htdv1pFtied7E38dnaFPqRNxTJYVFt4LhIn3jRyc2/bFqf/R1Po7d6fv7z+MPqciWOXkqhKgvxQU+YTQHG9s7/I03ructeuY+V4Ee2nSoE3wckEV0OqkVIjHk/M7WD4F0PXs6328+KGtG9zRlACrKmEJ0wz0hFV1ka9SfAq+YuwYhgHj7dl98AZkJSjmAbESF8UbcqbHrMP1Zt2N7QR5bukFoDycDaL3MLzb9KV1AfTTIEM1oRG+5L1FRlMZotp4CEOpOGqfr6CEIp+vByMxyzq2snkt5hvuxNMGKeSGYE4pHQklIaEtjNHhfLDs6sEPP04OddM8LbRB0lt1+bxR9KA8e/DrGQx314EpGJJ/pINJmCmmYluaPmoPZfDxeT7qT9fh9Phs0R75h5YWLZI6GtId6d6UCwk7jhq6ug04znxkp0OitMUjbfyt4/Ji7yOXyRYhLOkpHfVue3ViWrNEd06OB/TcJD9SYGVkEzixXdChDhrZmDOiWF0RZNdl23p5mpf+S+MxBhyl4veEHmon9emDbeWdvB1cWn9WcsvOuI2xBShP2ZIHXP+52NMwRNwhyyqpj0tQE7MTCU+fG0RgNKzE9AMuSk0RSDxtuRuqpR7Jj1HFy19MBs2PzRepxp1U9d5zZEhzA11zY3InA8mghhtVDl3+rqw66ozIZoePP7vipSFDs1svHNApCjjGwl3OtJEjonuObkCvXXbA5+g5kNOddNWpgu03jw5AwusymiS9XwbDERiKfHgRvWA7szqT3AUhYufqzjZ4cg4TeAbclPi5zyt+y2EKqsJm1ilNGdflovrEFswHvOFVoHvlLAaMahN503PMLdEaQzvBn3RsRHuQbf+4GTDCK5jGubodL2LpndoDb7tFvzrvDlMEOtN8p+baMi2RY2FEGoe3ddfuDka9RXaGBO0XL1PzmbL1Qw7SBjmtv3/N0clkTkDoi3U5ivM5y0x33+7Cz7/WazWZvNu+/rxfTOxdAttSZXACGJ4kvIj3MOymGRKCuE+jRdCaM3vEbTWz0wHH3DeLcEHQ/PT/sFSyRS3w/vw6Gg1NvP4GaC/DhuxY7PPW98GMHn6SH3gbsd9csOSG46Wun5tirh9HEA3xPkE+uDsBm8Endw8dk9SYdUOzGhQMvy7J/pPnScfQw6kOPBZl3LmA6sQFwFzP/DCNLtqzRvLu8gaAg1AMqPWyThwfJQHC3ee9p/0g4Sg8P/mjQX082y87uf//iDqfddX/WHP3j0aSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT+i/o/95KWYoilp4QAAAAASUVORK5CYII=" alt="watermelon">
+
+
+            <div class="paragraph">
+                <p>Watermelon, a vine plant, originally came from West Africa. The plant is know for
+                    its distinct pinkish-red fleshy center, that is sweet in taste. Colonists and slaves
+                    coming from Africa introduced watermelon to the rest of the world.</p>
+            </div>
+
+
+
+        <h2 class="title">The Present</h2>
+        <img class="gallery" src="data:image/png;base64,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" alt="watermelon">
+        <div class="paragraph">
+                <p>Currently, China is the worlds largest watermelon producer. There are more than 1200
+                    kinds of watermelons today. The most common one, a seedless variety found in grocery stores,
+                    is the product of cross-breeding.
+                </p>
+            </div>
+
+
+        <h2 class="title">Common Varieties of Watermelons</h2>
+        <table  id="varieties">
+            <tr>
+                <th>Variety</th>
+                <th>Seeds</th>
+                <th>Max Size</th>
+            </tr>
+            <tr>
+                <td>Crimson</td>
+                <td>Seedless</td>
+                <td>15 Pounds</td>
+            </tr>
+            <tr>]
+                <td>Sugar Baby</td>
+                <td>Seeded</td>
+                <td>8 to 10 Pounds</td>
+            </tr>
+            <tr>
+                <td>Desert King</td>
+                <td>Seeded</td>
+                <td>20 Pounds</td>
+            </tr>
+            <tr>
+                <td>Amarillo Watermelon</td>
+                <td>Seedless</td>
+                <td>15 Pounds</td>
+            </tr>
+            <tr>
+                <td>Jubilee Watermelon</td>
+                <td>Seeded</td>
+                <td>25 to 40 Pounds</td>
+            </tr>
+            <tr>
+                <td>Yellow Doll/Baby Watermelon</td>
+                <td>Seeded</td>
+                <td>5 to 8 Pounds</td>
+            </tr>
+        </table>
+
+
+
+        <h2 class="title">The Future</h2>
+        <img class="gallery" src="https://image.flaticon.com/icons/svg/2159/2159734.svg" alt="Watermelon">
+            <div class="paragraph">
+                <p>
+                    The future of watermelons will be defined by scientific
+                    advancement and public opinion. Public perception of genetically modified
+                    organisms is the biggest hurdle facing the future advancement of watermelons. As the
+                    world gets hotter due to climate change, and hungrier due to overpopulation, the
+                    demand for watermelon will increase exponentially. Supply will only meet demand if
+                    we as a society decide to accept GMO's. Without this, we could be met with a world
+                    where a single watermelon costs $50 or more.
+                </p>
+            </div>
+    </div>
+</body>
+</html>
